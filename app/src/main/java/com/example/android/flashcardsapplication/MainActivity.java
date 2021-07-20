@@ -25,5 +25,14 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(barron333Intent);
             }
         });
+
+        TextView magoosh500 = findViewById(R.id.mag500);
+        magoosh500.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent mag500Intent = new Intent(MainActivity.this, Magoosh500Words.class);
+                startActivity(mag500Intent);
+            }
+        });
     }
 }

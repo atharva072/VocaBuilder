@@ -9,22 +9,22 @@ import androidx.appcompat.app.AppCompatActivity;
 import java.util.ArrayList;
 import java.util.Random;
 
-public class DeckSix extends AppCompatActivity {
+public class BDeckSix extends AppCompatActivity {
 
     @Override
     protected void onCreate (Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.deck6);
+        setContentView(R.layout.bdeck6);
         call6();
     }
 
     public void btnCorrectClick6 (View view) {
-        setContentView(R.layout.deck6);
+        setContentView(R.layout.bdeck6);
         call6();
     }
 
     public void btnWrongClick6 (View view) {
-        setContentView(R.layout.deck6);
+        setContentView(R.layout.bdeck6);
         call6();
     }
 

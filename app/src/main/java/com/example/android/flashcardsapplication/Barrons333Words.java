@@ -18,7 +18,7 @@ public class Barrons333Words extends AppCompatActivity {
         deck1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent deckOneIntent = new Intent(Barrons333Words.this, DeckOne.class);
+                Intent deckOneIntent = new Intent(Barrons333Words.this, BDeckOne.class);
                 startActivity(deckOneIntent);
             }
         });
@@ -27,7 +27,7 @@ public class Barrons333Words extends AppCompatActivity {
         deck2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent deckTwoIntent = new Intent(Barrons333Words.this, DeckTwo.class);
+                Intent deckTwoIntent = new Intent(Barrons333Words.this, BDeckTwo.class);
                 startActivity(deckTwoIntent);
             }
         });
@@ -36,7 +36,7 @@ public class Barrons333Words extends AppCompatActivity {
         deck3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent deckThreeIntent = new Intent(Barrons333Words.this, DeckThree.class);
+                Intent deckThreeIntent = new Intent(Barrons333Words.this, BDeckThree.class);
                 startActivity(deckThreeIntent);
             }
         });
@@ -45,7 +45,7 @@ public class Barrons333Words extends AppCompatActivity {
         deck4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent deckFourIntent = new Intent(Barrons333Words.this, DeckFour.class);
+                Intent deckFourIntent = new Intent(Barrons333Words.this, BDeckFour.class);
                 startActivity(deckFourIntent);
             }
         });
@@ -54,7 +54,7 @@ public class Barrons333Words extends AppCompatActivity {
         deck5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent deckFiveIntent = new Intent(Barrons333Words.this, DeckFive.class);
+                Intent deckFiveIntent = new Intent(Barrons333Words.this, BDeckFive.class);
                 startActivity(deckFiveIntent);
             }
         });
@@ -63,7 +63,7 @@ public class Barrons333Words extends AppCompatActivity {
         deck6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent deckSixIntent = new Intent(Barrons333Words.this, DeckSix.class);
+                Intent deckSixIntent = new Intent(Barrons333Words.this, BDeckSix.class);
                 startActivity(deckSixIntent);
             }
         });
@@ -72,7 +72,7 @@ public class Barrons333Words extends AppCompatActivity {
         deck7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent deckSevenIntent = new Intent(Barrons333Words.this, DeckSeven.class);
+                Intent deckSevenIntent = new Intent(Barrons333Words.this, BDeckSeven.class);
                 startActivity(deckSevenIntent);
             }
         });

@@ -26,7 +26,7 @@
                 android:value=".MainActivity"/>
         </activity>
         <activity
-            android:name=".DeckOne"
+            android:name=".BDeckOne"
             android:label="Deck One"
             android:parentActivityName=".MainActivity">
             <!-- Parent activity meta-data to support 4.0 and lower -->
@@ -35,7 +35,7 @@
                 android:value=".MainActivity"/>
         </activity>
         <activity
-            android:name=".DeckTwo"
+            android:name=".BDeckTwo"
             android:label="Deck Two"
             android:parentActivityName=".MainActivity">
             <!-- Parent activity meta-data to support 4.0 and lower -->
@@ -44,7 +44,7 @@
                 android:value=".MainActivity"/>
         </activity>
         <activity
-            android:name=".DeckThree"
+            android:name=".BDeckThree"
             android:label="Deck Three"
             android:parentActivityName=".MainActivity">
             <!-- Parent activity meta-data to support 4.0 and lower -->
@@ -53,7 +53,7 @@
                 android:value=".MainActivity"/>
         </activity>
         <activity
-            android:name=".DeckFour"
+            android:name=".BDeckFour"
             android:label="Deck Four"
             android:parentActivityName=".MainActivity">
             <!-- Parent activity meta-data to support 4.0 and lower -->
@@ -62,7 +62,7 @@
                 android:value=".MainActivity"/>
         </activity>
         <activity
-            android:name=".DeckFive"
+            android:name=".BDeckFive"
             android:label="Deck Five"
             android:parentActivityName=".MainActivity">
             <!-- Parent activity meta-data to support 4.0 and lower -->
@@ -71,7 +71,7 @@
                 android:value=".MainActivity"/>
         </activity>
         <activity
-            android:name=".DeckSix"
+            android:name=".BDeckSix"
             android:label="Deck Six"
             android:parentActivityName=".MainActivity">
             <!-- Parent activity meta-data to support 4.0 and lower -->
@@ -80,8 +80,26 @@
                 android:value=".MainActivity"/>
         </activity>
         <activity
-            android:name=".DeckSeven"
+            android:name=".BDeckSeven"
             android:label="Deck Seven"
+            android:parentActivityName=".MainActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
+        <activity
+            android:name=".Magoosh500Words"
+            android:label="Magoosh500"
+            android:parentActivityName=".MainActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
+        <activity
+            android:name=".MDeckOne"
+            android:label="Deck One"
             android:parentActivityName=".MainActivity">
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
