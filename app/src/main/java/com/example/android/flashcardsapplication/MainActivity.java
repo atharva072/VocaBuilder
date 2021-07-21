@@ -34,5 +34,14 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(mag500Intent);
             }
         });
+
+        TextView manhattan500 = findViewById(R.id.manhattan500);
+        manhattan500.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent man500Intent = new Intent(MainActivity.this, Manhattan500Words.class);
+                startActivity(man500Intent);
+            }
+        });
     }
 }
