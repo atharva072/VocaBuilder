@@ -5,4 +5,5 @@ This app also helps you prepare building vocabulary for standardized test such a
 1. Barron 333 words.
 2. Magoosh FlashCards Words list.
 3. Manhattan Advanced 500 words list.
-All these listin one app would surely increase your vocabulary in general or for any standardized test.
+
+All these list in one app would surely increase your vocabulary in general or for any standardized test.
