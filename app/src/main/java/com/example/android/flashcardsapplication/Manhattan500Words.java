@@ -40,5 +40,32 @@ public class Manhattan500Words extends AppCompatActivity {
                 startActivity(deckThreeIntent);
             }
         });
+
+        TextView deck4 = findViewById(R.id.cw_4_practice_deck);
+        deck4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent deckFourIntent = new Intent(Manhattan500Words.this, ManDeckFour.class);
+                startActivity(deckFourIntent);
+            }
+        });
+
+        TextView deck5 = findViewById(R.id.cw_5_practice_deck);
+        deck5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent deckFiveIntent = new Intent(Manhattan500Words.this, ManDeckFive.class);
+                startActivity(deckFiveIntent);
+            }
+        });
+
+        TextView deck6 = findViewById(R.id.cw_6_practice_deck);
+        deck6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent deckSixIntent = new Intent(Manhattan500Words.this, ManDeckSix.class);
+                startActivity(deckSixIntent);
+            }
+        });
     }
 }
