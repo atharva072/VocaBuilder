@@ -6,4 +6,4 @@ This app also helps you in building vocabulary for standardized test such as GRE
 2. Magoosh FlashCards Words list.
 3. Manhattan Advanced 500 words list.
 
-All these list in one app would surely increase your vocabulary in general or for any standardized test.
+All these lists in one app would help you increase your vocabulary in general or for any standardized test.
