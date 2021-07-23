@@ -3,6 +3,8 @@ package com.example.android.flashcardsapplication;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -65,6 +67,42 @@ public class Manhattan500Words extends AppCompatActivity {
             public void onClick(View v) {
                 Intent deckSixIntent = new Intent(Manhattan500Words.this, ManDeckSix.class);
                 startActivity(deckSixIntent);
+            }
+        });
+
+        TextView deck7 = findViewById(R.id.cw_7_practice_deck);
+        deck7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent deckSevenIntent = new Intent(Manhattan500Words.this, ManDeckSeven.class);
+                startActivity(deckSevenIntent);
+            }
+        });
+
+        TextView deck8 = findViewById(R.id.cw_8_practice_deck);
+        deck8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent deckEightIntent = new Intent(Manhattan500Words.this, ManDeckEight.class);
+                startActivity(deckEightIntent);
+            }
+        });
+
+        TextView deck9 = findViewById(R.id.cw_9_practice_deck);
+        deck9.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent deckNineIntent = new Intent(Manhattan500Words.this, ManDeckNine.class);
+                startActivity(deckNineIntent);
+            }
+        });
+
+        TextView deck10 = findViewById(R.id.cw_10_practice_deck);
+        deck10.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent deckTenIntent = new Intent(Manhattan500Words.this, ManDeckTen.class);
+                startActivity(deckTenIntent);
             }
         });
     }

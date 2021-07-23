@@ -357,7 +357,7 @@
                 android:id="@+id/cw_7_head"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Common words 7"
+                android:text="DECK 7"
                 android:layout_marginTop="10dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
@@ -385,6 +385,171 @@
 
             <TextView
                 android:id="@+id/cw_7_practice_deck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Practice this deck →"
+                android:textColor="#757575"
+                android:textAlignment="center"
+                android:background="@drawable/round_button"
+                android:gravity="center_horizontal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/cw_8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical"
+            android:background="@drawable/round_layout">
+
+            <TextView
+                android:id="@+id/cw_8_head"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DECK 8"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/cw_8_word_count"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="50 words"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="#757575" />
+
+            <com.google.android.material.progressindicator.LinearProgressIndicator
+                android:id="@+id/cw_8_progress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                app:trackThickness="2dp"
+                android:background="@drawable/round_progress_bar"/>
+
+            <TextView
+                android:id="@+id/cw_8_practice_deck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Practice this deck →"
+                android:textColor="#757575"
+                android:textAlignment="center"
+                android:background="@drawable/round_button"
+                android:gravity="center_horizontal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/cw_9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical"
+            android:background="@drawable/round_layout">
+
+            <TextView
+                android:id="@+id/cw_9_head"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DECK 9"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/cw_9_word_count"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="50 words"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="#757575" />
+
+            <com.google.android.material.progressindicator.LinearProgressIndicator
+                android:id="@+id/cw_9_progress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                app:trackThickness="2dp"
+                android:background="@drawable/round_progress_bar"/>
+
+            <TextView
+                android:id="@+id/cw_9_practice_deck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Practice this deck →"
+                android:textColor="#757575"
+                android:textAlignment="center"
+                android:background="@drawable/round_button"
+                android:gravity="center_horizontal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/cw_10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical"
+            android:background="@drawable/round_layout">
+
+            <TextView
+                android:id="@+id/cw_10_head"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DECK 10"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/cw_10_word_count"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="50 words"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="#757575" />
+
+            <com.google.android.material.progressindicator.LinearProgressIndicator
+                android:id="@+id/cw_10_progress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                app:trackThickness="2dp"
+                android:background="@drawable/round_progress_bar"/>
+
+            <TextView
+                android:id="@+id/cw_10_practice_deck"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
