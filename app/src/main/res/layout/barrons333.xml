@@ -27,20 +27,12 @@
                 android:id="@+id/cw_1_head"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Common words 1"
+                android:text="DECK 1"
                 android:layout_marginTop="10dp"
-                android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
-                android:textColor="@color/black" />
-
-            <TextView
-                android:id="@+id/cw_1_word_count"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="50 words from barron's high frequency list"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
-                android:textColor="#757575" />
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:gravity="center_horizontal" />
 
             <com.google.android.material.progressindicator.LinearProgressIndicator
                 android:id="@+id/cw_1_progress"
@@ -82,20 +74,12 @@
                 android:id="@+id/cw_2_head"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Common words 2"
+                android:text="DECK 2"
                 android:layout_marginTop="10dp"
-                android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
-                android:textColor="@color/black" />
-
-            <TextView
-                android:id="@+id/cw_2_word_count"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="50 words from barron's high frequency list"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
-                android:textColor="#757575" />
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:gravity="center_horizontal" />
 
             <com.google.android.material.progressindicator.LinearProgressIndicator
                 android:id="@+id/cw_2_progress"
@@ -137,20 +121,11 @@
                 android:id="@+id/cw_3_head"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Common words 3"
+                android:text="DECK 3"
                 android:layout_marginTop="10dp"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
-                android:textColor="@color/black" />
-
-            <TextView
-                android:id="@+id/cw_3_word_count"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="50 words from barron's high frequency list"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
-                android:textColor="#757575" />
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:gravity="center_horizontal" />
 
             <com.google.android.material.progressindicator.LinearProgressIndicator
                 android:id="@+id/cw_3_progress"
@@ -192,20 +167,11 @@
                 android:id="@+id/cw_4_head"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Common words 4"
+                android:text="DECK 4"
                 android:layout_marginTop="10dp"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
-                android:textColor="@color/black" />
-
-            <TextView
-                android:id="@+id/cw_4_word_count"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="50 words from barron's high frequency list"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
-                android:textColor="#757575" />
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:gravity="center_horizontal" />
 
             <com.google.android.material.progressindicator.LinearProgressIndicator
                 android:id="@+id/cw_4_progress"
@@ -247,20 +213,11 @@
                 android:id="@+id/cw_5_head"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Common words 5"
+                android:text="DECK 5"
                 android:layout_marginTop="10dp"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
-                android:textColor="@color/black" />
-
-            <TextView
-                android:id="@+id/cw_5_word_count"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="50 words from barron's high frequency list"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
-                android:textColor="#757575" />
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:gravity="center_horizontal" />
 
             <com.google.android.material.progressindicator.LinearProgressIndicator
                 android:id="@+id/cw_5_progress"
@@ -302,20 +259,11 @@
                 android:id="@+id/cw_6_head"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Common words 6"
+                android:text="DECK 6"
                 android:layout_marginTop="10dp"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
-                android:textColor="@color/black" />
-
-            <TextView
-                android:id="@+id/cw_6_word_count"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="50 words from barron's high frequency list"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
-                android:textColor="#757575" />
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:gravity="center_horizontal" />
 
             <com.google.android.material.progressindicator.LinearProgressIndicator
                 android:id="@+id/cw_6_progress"
@@ -357,20 +305,11 @@
                 android:id="@+id/cw_7_head"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Common words 7"
+                android:text="DECK 7"
                 android:layout_marginTop="10dp"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
-                android:textColor="@color/black" />
-
-            <TextView
-                android:id="@+id/cw_7_word_count"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="33 words from barron's high frequency list"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
-                android:textColor="#757575" />
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:gravity="center_horizontal" />
 
             <com.google.android.material.progressindicator.LinearProgressIndicator
                 android:id="@+id/cw_7_progress"

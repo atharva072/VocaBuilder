@@ -1,13 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#7B1FA2">
+    android:background="#7B1FA2"
+    android:textAlignment="center"
+    android:gravity="center_horizontal">
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="408dp"
+        android:layout_height="443dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="145dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="143dp"
         android:orientation="vertical"
         android:paddingBottom="30dp"
         tools:context=".MainActivity">
@@ -16,25 +30,25 @@
             android:id="@+id/barrons_333"
             android:layout_width="match_parent"
             android:layout_height="80dp"
-            android:layout_marginTop="20dp"
             android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
             android:layout_marginRight="20dp"
-            android:orientation="vertical"
-            android:background="@drawable/round_layout">
+            android:background="@drawable/round_layout"
+            android:orientation="vertical">
 
             <TextView
                 android:id="@+id/barron333"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Barron's 333 words"
-                android:textAlignment="center"
-                android:layout_marginTop="25dp"
                 android:layout_marginLeft="10dp"
+                android:layout_marginTop="25dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="10dp"
-                android:textColor="@color/black"
                 android:gravity="center_horizontal"
-                android:textSize="20dp"/>
+                android:text="Barron's 333 words"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
 
         </LinearLayout>
 
@@ -42,25 +56,25 @@
             android:id="@+id/mag_500"
             android:layout_width="match_parent"
             android:layout_height="80dp"
-            android:layout_marginTop="20dp"
             android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
             android:layout_marginRight="20dp"
-            android:orientation="vertical"
-            android:background="@drawable/round_layout">
+            android:background="@drawable/round_layout"
+            android:orientation="vertical">
 
             <TextView
                 android:id="@+id/mag500"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Magoosh 500 words"
-                android:textAlignment="center"
-                android:layout_marginTop="25dp"
                 android:layout_marginLeft="10dp"
+                android:layout_marginTop="25dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="10dp"
-                android:textColor="@color/black"
                 android:gravity="center_horizontal"
-                android:textSize="20dp"/>
+                android:text="Magoosh 500 words"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
 
         </LinearLayout>
 
@@ -68,25 +82,25 @@
             android:id="@+id/manhattan_500"
             android:layout_width="match_parent"
             android:layout_height="80dp"
-            android:layout_marginTop="20dp"
             android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
             android:layout_marginRight="20dp"
-            android:orientation="vertical"
-            android:background="@drawable/round_layout">
+            android:background="@drawable/round_layout"
+            android:orientation="vertical">
 
             <TextView
                 android:id="@+id/manhattan500"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Manhattan 500 words"
-                android:textAlignment="center"
-                android:layout_marginTop="25dp"
                 android:layout_marginLeft="10dp"
+                android:layout_marginTop="25dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="10dp"
-                android:textColor="@color/black"
                 android:gravity="center_horizontal"
-                android:textSize="20dp"/>
+                android:text="Manhattan 500 words"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
 
         </LinearLayout>
 
@@ -94,28 +108,28 @@
             android:id="@+id/kaplan_400"
             android:layout_width="match_parent"
             android:layout_height="80dp"
-            android:layout_marginTop="20dp"
             android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
             android:layout_marginRight="20dp"
-            android:orientation="vertical"
-            android:background="@drawable/round_layout">
+            android:background="@drawable/round_layout"
+            android:orientation="vertical">
 
             <TextView
                 android:id="@+id/kaplan400"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Kaplan 400 words"
-                android:textAlignment="center"
-                android:layout_marginTop="25dp"
                 android:layout_marginLeft="10dp"
+                android:layout_marginTop="25dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="10dp"
-                android:textColor="@color/black"
                 android:gravity="center_horizontal"
-                android:textSize="20dp"/>
+                android:text="Kaplan 400 words"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
 
         </LinearLayout>
 
     </LinearLayout>
 
-</ScrollView>
+</RelativeLayout>
