@@ -7,7 +7,7 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class Magoosh500Words extends AppCompatActivity {
+public class Kaplan400Words extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,7 +18,7 @@ public class Magoosh500Words extends AppCompatActivity {
         deck1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent deckOneIntent = new Intent(Magoosh500Words.this, MDeckOne.class);
+                Intent deckOneIntent = new Intent(Kaplan400Words.this, KapDeckOne.class);
                 startActivity(deckOneIntent);
             }
         });
@@ -27,7 +27,7 @@ public class Magoosh500Words extends AppCompatActivity {
         deck2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent deckTwoIntent = new Intent(Magoosh500Words.this, MDeckTwo.class);
+                Intent deckTwoIntent = new Intent(Kaplan400Words.this, KapDeckTwo.class);
                 startActivity(deckTwoIntent);
             }
         });

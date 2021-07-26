@@ -43,5 +43,14 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(man500Intent);
             }
         });
+
+        TextView kaplan400 = findViewById(R.id.kaplan400);
+        kaplan400.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent kap400Intent = new Intent(MainActivity.this, Kaplan400Words.class);
+                startActivity(kap400Intent);
+            }
+        });
     }
 }
