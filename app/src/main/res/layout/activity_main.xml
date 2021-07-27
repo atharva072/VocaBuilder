@@ -40,7 +40,8 @@
                     android:text="Barron's 333 words"
                     android:textAlignment="center"
                     android:textColor="@color/black"
-                    android:textSize="20dp" />
+                    android:textSize="20dp"
+                    android:fontFamily="sans-serif-smallcaps"/>
 
             </LinearLayout>
 
@@ -66,7 +67,8 @@
                     android:text="Manhattan 500 words"
                     android:textAlignment="center"
                     android:textColor="@color/black"
-                    android:textSize="20dp" />
+                    android:textSize="20dp"
+                    android:fontFamily="sans-serif-smallcaps"/>
 
             </LinearLayout>
 
@@ -92,7 +94,8 @@
                     android:text="Kaplan 400 words"
                     android:textAlignment="center"
                     android:textColor="@color/black"
-                    android:textSize="20dp" />
+                    android:textSize="20dp"
+                    android:fontFamily="sans-serif-smallcaps"/>
 
             </LinearLayout>
 

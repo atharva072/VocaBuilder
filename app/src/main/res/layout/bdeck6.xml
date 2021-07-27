@@ -40,7 +40,7 @@
                 android:text="Common words 1"
                 android:textAlignment="center"
                 android:textColor="@color/black"
-                android:fontFamily="monospace"
+                android:fontFamily="sans-serif-smallcaps"
                 android:textSize="30dp"/>
 
             <Button
