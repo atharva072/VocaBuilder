@@ -28,6 +28,7 @@ public class BDeckOne extends AppCompatActivity {
     }
 
     private void call () {
+        boolean opened;
         ArrayList<Word> words = new ArrayList<>();
 
         words.add(new Word("Abate","subside or moderate"));
