@@ -7,3 +7,5 @@ This app also helps you in building vocabulary for standardized test such as GRE
 3. Kaplan 400 words
 
 All these lists in one app would help you increase your vocabulary in general or for any standardized test.
+
+CURRENTLY IN PROCESS..
