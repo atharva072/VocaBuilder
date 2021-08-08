@@ -1,4 +1,4 @@
-# flashcards_app
+# VocaBuilder
 
 A Vocabulary Builder Android application that helps you to build vocabulary. 
 This app also helps you in building vocabulary for standardized test such as GRE, GMAT .etc by including various Word Lists like -> 
